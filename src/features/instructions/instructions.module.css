@@ -1,0 +1,77 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container {
+    margin: 50px;
+    /* max-width: 1000px; */
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+.columns > img {
+    width: 50%;
+}
+
+.video {
+    width: 100%;
+    height: 400px;
+    margin-left: 10px;
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.contentText {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contentText > div > p {
+    text-align: center;
+}
+
+.footer {
+    margin: 20px;
+}

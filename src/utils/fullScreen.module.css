@@ -1,0 +1,19 @@
+.container {
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.content > :nth-child(1) {
+    margin-bottom: 20px;
+}
