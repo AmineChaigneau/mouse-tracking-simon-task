@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Mouse Tracking Simon Task React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+The Mouse Tracking Simon Task is an interactive web application designed to measure and analyze cognitive responses to numerical stimuli using the principles established by Scherbaum and Kieslich. It provides an engaging way to study the Simon effect and congruency sequence effect through a React-based interface.
 
-## Available Scripts
+A demo is provided at 
 
-In the project directory, you can run:
+## Procedure
+Participants undergo a series of trials where they must make decisions based on the numerical value of stimuli. They are instructed to choose the left option for numbers less than 5 and the right for numbers greater than 5, regardless of the stimulus's spatial position on the screen.
 
-### `npm start`
+## Design
+Our application incorporates a detailed experimental design that allows for the manipulation of independent variables such as directional implication and spatial presentation. It follows a rigorous procedure to present 256 trials that alternate between conflict and non-conflict conditions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Mouse-Tracking
+Mouse movements are meticulously recorded to analyze the participant's decision-making process. The application is calibrated to track the dynamics of mouse kinematics, providing insights into cognitive patterns during the task.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Calibration and Training Session
+Before the main experiment, participants can familiarize themselves with the interface through a training session that includes 40 trials. This helps to establish a baseline for individual response strategies.
 
-### `npm test`
+## Installation
+To set up the application locally, please follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/your-repo-link/mouse-tracking-simon-task
+cd mouse-tracking-simon-task
+npm install
+```
+## Usage
+```bash
+npm start
+```
+Follow the on-screen instructions for calibration and proceed with the main task as prompted.
 
-### `npm run build`
+## Live Application
+The Mouse Tracking Simon Task is currently hosted and available for testing at the following link: [Simon Task Application](https://simontask2023a1b2.web.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Support
+For any inquiries or support, reach out at aminechaigneau@gmail.com.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors and Acknowledgement
+This application is developed by Amine Chaigneau, inspired by the work of Scherbaum and Kieslich. Special thanks to them and all contributors to the field of cognitive psychology.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
