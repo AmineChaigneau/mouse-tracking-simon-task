@@ -3,7 +3,7 @@
 ## Introduction
 The Mouse Tracking Simon Task is an interactive web application designed to measure and analyze cognitive responses to numerical stimuli using the principles established by Scherbaum and Kieslich. It provides an engaging way to study the Simon effect and congruency sequence effect through a React-based interface.
 
-A demo is provided at 
+The Mouse Tracking Simon Task is currently hosted and available for testing at the following link: [Simon Task Application](https://simontask2023a1b2.web.app/)
 
 ## Procedure
 Participants undergo a series of trials where they must make decisions based on the numerical value of stimuli. They are instructed to choose the left option for numbers less than 5 and the right for numbers greater than 5, regardless of the stimulus's spatial position on the screen.
@@ -30,9 +30,6 @@ npm install
 npm start
 ```
 Follow the on-screen instructions for calibration and proceed with the main task as prompted.
-
-## Live Application
-The Mouse Tracking Simon Task is currently hosted and available for testing at the following link: [Simon Task Application](https://simontask2023a1b2.web.app/)
 
 ## Support
 For any inquiries or support, reach out at aminechaigneau@gmail.com.
